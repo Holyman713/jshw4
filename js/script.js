@@ -21,7 +21,7 @@ function random(min, max) {
 var number = prompt ('Введите количество примеров')
 let userNum1 = +prompt ('Введите min число');
 let userNum2 = +prompt ('Введите max число');
-for (let i = 0; i<10 ; i++) {
+for (let i = 0; i<number ; i++) {
     let randomNum1 = random(userNum1, userNum2);
     let randomNum2 = random(userNum1, userNum2);
     let sign1 = sign(1,4);
